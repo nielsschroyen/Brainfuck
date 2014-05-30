@@ -1,4 +1,0 @@
-Brainfuck
-=========
-
-Brainfuck compiler
