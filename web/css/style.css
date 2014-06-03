@@ -89,6 +89,10 @@ a.boxclose{
 	-o-transition: all 0.5s ease-in-out;
 	transition: all 0.5s ease-in-out;
 }
+
+.awesome_links{
+	font-size:1.2em;
+}
 .menu_box_list li a:hover{
 	color:#B63D44;
 }
