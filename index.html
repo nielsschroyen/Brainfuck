@@ -51,27 +51,26 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 					                   <p>Just give me some instructions and an optional input and click compile!</p>             
 					                     
 					                           	    <div class="comments-area">
-														<form>
-															<div>					    	
+														<div>					    	
 													    		<span class="label"><label>Instructions <span class="red">*</span></label></span>
-													    		<span class="text-field"><textarea name="userMsg"> </textarea></span>
+													    		<span class="text-field" ><textarea id='instructions' name="userMsg">++++++++++[>+++++++>++++++++++>+++>+<<<<-]>++.>+.+++++++..+++.>++.<<+++++++++++++++.>.+++.------.--------.>+.>.</textarea></span>
 													    		<div class="clear"></div>
 													   	   </div>
 														   <div>					    	
 													    		<span class="label"><label>Input <span class="red">*</span></label></span>
-													    		<span class="text-field"><textarea name="userMsg"> </textarea></span>
+													    		<span class="text-field"><textarea  id='input' name="userMsg"> </textarea></span>
 													    		<div class="clear"></div>
 													   	   </div>
 															<div>
 													   			<span class="text-field"><input type="submit" value="Compile" onclick='runBrainfuck();'  class="myButton"></span>
 													   			 <div class="clear"></div>
 													  		</div>
-														</form>		
 													</div>
 												
 											  
-										 
-					                 </div>     
+										  <p class="output_green" id='output'>Output:</p>									 
+   <div class="clear"></div>  
+					                 </div>   
 					                
 				       <div class="clear"></div>    					              		    				    					                      			   							
 				</div>		   		   				    		    					
