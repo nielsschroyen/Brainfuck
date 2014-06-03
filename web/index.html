@@ -7,7 +7,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE HTML>
 <html>
 <head>
-<title>Brainfuck</title>
+<title>Free Perth real pixels Website Template | Home :: w3layouts</title>
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="web/css/style.css" rel="stylesheet" type="text/css" media="all"/>
@@ -31,13 +31,64 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <body>
   <div class="header">
 	 <div class="wrap">
-			   <div class="logo">
+		 <div class="header_top">
+		 	     <div class="logo">
 						<a href="index.html"><img src="web/images/logo.png" alt="" /></a>
 					</div>	
+					      <div class="menu">																
+					     	 <a href="#" class="right_bt" id="activator"><img src="web/images/nav.png" alt="" /></a>
+					     	    <div class="box" id="box">
+					        	   <div class="box_content">        					                         
+					                <div class="box_content_center">
+					                   <div class="form_content">
+						                     <div class="menu_box_list">
+									      		<ul>
+											  		<li><a href="#"><i><img src="web/images/home.png" alt="" /></i><span>home</span></a></li>
+											  		<li class="active"><a href="#about" class="scroll"><i><img src="web/images/about.png" alt="" /></i><span>about me</span></a></li>
+											  		<li><a href="#portfolio" class="scroll"><i><img src="web/images/portfolio.png" alt="" /></i><span>portfolio</span></a></li>
+											  		<li><a href="#contact" class="scroll"><i><img src="web/images/contact.png" alt="" /></i><span>drop me a line</span></a></li>
+									    		</ul>
+									        </div>
+						                   <a class="boxclose" id="boxclose"><img src="web/images/close.png" alt=""></a>
+					                   </div>                
+					                   <div class="clear"></div>
+					                </div> 
+					           </div>
+					        </div>
+						 <div class="clear"></div>
+						  <script type="text/javascript">
+								var $ = jQuery.noConflict();
+									$(function() {
+										$('#activator').click(function(){
+												$('#box').animate({'top':'0px'},500);
+										});
+										$('#boxclose').click(function(){
+												$('#box').animate({'top':'-700px'},500);
+										});
+									});
+									$(document).ready(function(){
+									
+									//Hide (Collapse) the toggle containers on load
+									$(".toggle_container").hide(); 
+									
+									//Switch the "Open" and "Close" state per click then slide up/down (depending on open/close state)
+									$(".trigger").click(function(){
+										$(this).toggleClass("active").next().slideToggle("slow");
+										return false; //Prevent the browser jump to the link anchor
+									});
+									
+									});
+								</script>
+					      </div> 						
+	    		 <div class="clear"></div>
+	        </div>
 	         <div class="header_desc">
-	         	 <h1>Meet Brainfuck,</h1>
+	         	 <h1>Meet Brainfuck.js,</h1>
 	         	 <p>A stupidly simple <span>Brainfuck</span> compiler</p>
-	         	 <div class="button"><a href="https://github.com/nielsschroyen/Brainfuck" target="_blank" >View on github <i><img src="web/images/download-icon.png" alt="" /></i></a></div>
+	         	 <div class="button"><a href="http://w3layouts.com/" target="_blank" >Download <i><img src="web/images/download-icon.png" alt="" /></i></a></div>
+	         	 <div class="iphone_img">
+	         	 	<img src="web/images/iphone-big.png" alt="" />
+	         	 </div>
 	         </div>
 	    </div>
   </div>			      	
@@ -45,27 +96,69 @@ License URL: http://creativecommons.org/licenses/by/3.0/
  	    		 	<div id="cbp-so-scroller" class="cbp-so-scroller"> 		
  		    				 <div class="content_top">																 			
 						 			 <div class="ipad_desc" id="about">      
-					                   <h2>Compile</h2>
-					                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.</p>             
-					                     
+					                   <h2>A Longwinded Header</h2>
+					                   <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Lorem ipsum dolor sit amet.</p>
+					                   <p class="italic">consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>                 
+					                     <div class="button green"><a class="popup-with-zoom-anim" href="#small-dialog">Say Hello <i><img src="web/images/mail.png" alt="" /></i></a>
+					                           <div id="small-dialog" class="mfp-hide">
 					                           	    <div class="comments-area">
 														<form>
+															<div>
+													    	   <span class="label"><label>Your Name <span class="red">*</span></label></span>
+													    	   <span class="text-field"><input name="userName" type="text" class="textbox"></span>
+													    	   <div class="clear"></div>
+													        </div>
+															<div>
+													    		<span class="label"><label>E-mail <span class="red">*</span></label></span>
+													    		<span class="text-field"><input name="userEmail" type="text" class="textbox"></span>
+													    		<div class="clear"></div>
+													    	</div>
+															<div>
+													    	   <span class="label"><label>Website Name</label></span>
+													    	   <span class="text-field"><input type="text" class="textbox"></span>
+													    	   <div class="clear"></div>
+													    	</div>
 															<div>					    	
-													    		<span class="label"><label>Instructions <span class="red">*</span></label></span>
+													    		<span class="label"><label>Description <span class="red">*</span></label></span>
 													    		<span class="text-field"><textarea name="userMsg"> </textarea></span>
 													    		<div class="clear"></div>
 													   	   </div>
 															<div>
-													   			<span class="text-field"><input type="submit" value="Compile" class="myButton"></span>
+													   			<span class="text-field"><input type="submit" value="Submit" class="myButton"></span>
 													   			 <div class="clear"></div>
 													  		</div>
 														</form>		
 													</div>
-												
-											  
-										 
+												</div>
+											   <script>
+													$(document).ready(function() {
+														$('.popup-with-zoom-anim').magnificPopup({
+															type: 'inline',
+													
+															fixedContentPos: false,
+															fixedBgPos: true,
+													
+															overflowY: 'auto',
+													
+															closeBtnInside: true,
+															preloader: false,
+															
+															midClick: true,
+															removalDelay: 300,
+															mainClass: 'my-mfp-zoom-in'
+														});
+																					
+													});
+													</script>
+										 </div>
 					                 </div>     
-					                
+					                <div class="ipad_img">
+					                  <section class="cbp-so-section cbp-so-init cbp-so-animate">
+					                  	<article class="cbp-so-side cbp-so-side-right">						                
+							         	 	<img src="web/images/ipad.png" alt="">			         
+						 	        </article>
+						         </section>  
+					 	 	 </div> 
 				       <div class="clear"></div>    					              		    				    					                      			   							
 				</div>		   		   				    		    					
   		    		<div class="content_bottom" id="portfolio">
