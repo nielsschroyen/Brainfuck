@@ -187,6 +187,15 @@ a.boxclose{
 	border-left:5px solid #14af8f;
 	margin-top:15px;
 }
+
+.ipad_desc p.output_red{
+    width:80%;
+	float:right;
+	padding:0em 0em 0em 1em;
+	font-style:italic;
+	border-left:5px solid red;
+	margin-top:15px;
+}
 .green{
 	margin-top:5em;
 }
