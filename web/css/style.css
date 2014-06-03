@@ -159,8 +159,8 @@ a.boxclose{
 	padding:2em 0;
 }
 .ipad_desc{
-	float:left;
-	margin-left:10em;
+	margin-right:5em;
+	margin-left:5em;
 }
 .ipad_img{
    float:right;	

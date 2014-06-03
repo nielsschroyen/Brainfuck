@@ -259,7 +259,7 @@ button::-moz-focus-inner {
 }
 .comments-area textarea{
 		    resize:none;
-		    height:150px;
+		    height:100px;
 			width:95%;
 }
 .myButton{
