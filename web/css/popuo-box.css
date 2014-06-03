@@ -228,6 +228,10 @@ button::-moz-focus-inner {
 .comments-area div{
 	padding:6px 0;
 }
+
+.commands-area div{
+	padding:0;
+}
 .comments-area span{
 	font-size:0.85em;
 	color:#7E7E7E;
@@ -235,6 +239,44 @@ button::-moz-focus-inner {
 .comments-area span.label{
 	float:left;
 	width:20%;
+}
+
+.commands-area div.command_instruction{
+    border-left:2px solid #777777;
+	border-top: 2px solid #777777;
+	border-right: 2px solid #777777;
+	text-align:center;
+	float:left;
+	padding: 5px;
+	width:10%;
+}
+
+.commands-area div.command_description_bottom{
+    border-top: 2px solid #777777;
+    border-bottom: 2px solid #777777;
+	border-right: 2px solid #777777;
+	padding: 5px;
+	float:left;
+	width:90%;
+}
+
+.commands-area div.command_instruction_bottom{
+    border-left:2px solid #777777;
+	border-bottom: 2px solid #777777;
+	border-top: 2px solid #777777;
+	border-right: 2px solid #777777;
+	text-align:center;
+	float:left;
+	padding: 5px;
+	width:10%;
+}
+
+.commands-area div.command_description{
+    border-top: 2px solid #777777;
+	border-right: 2px solid #777777;
+	padding: 5px;
+	float:left;
+	width:90%;
 }
 .comments-area span.text-field{
 	width:80%;
